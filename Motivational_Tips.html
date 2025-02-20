@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum Discussion</title>
+    <link rel="stylesheet" href="forum.css">
+    <script defer src="forum.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Forum Discussions</h1>
+        <input type="text" id="search" placeholder="Search discussions...">
+    </header>
+    
+    <main>
+        <section id="categories">
+            <h2>Discussion Categories</h2>
+            <ul>
+                <li>General</li>
+                <li>Technology</li>
+                <li>Science</li>
+                <li>Health</li>
+                <li>Education</li>
+            </ul>
+        </section>
+        
+        <section id="threads">
+            <h2>Threads</h2>
+            <div class="thread">
+                <h3>How to learn JavaScript?</h3>
+                <p>Posted by User1 | <span class="likes">10 Likes</span></p>
+                <button class="like-btn">Like</button>
+                <button class="upvote-btn">Upvote</button>
+            </div>
+            <div class="thread">
+                <h3>Best AI tools in 2024</h3>
+                <p>Posted by User2 | <span class="likes">8 Likes</span></p>
+                <button class="like-btn">Like</button>
+                <button class="upvote-btn">Upvote</button>
+            </div>
+        </section>
+        
+        <section id="notifications">
+            <h2>Notifications</h2>
+            <ul>
+                <li>User3 replied to your post</li>
+                <li>Your thread got an upvote</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
